@@ -1,0 +1,113 @@
+#nav-button-home {
+    background-color: #0099ff;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+    height: 52px;
+    width: 110px;
+  }
+  #nav-button-home:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  #nav-button-software {
+    background-color: #0099ff;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+    height: 52px;
+  }
+  #nav-button-software:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  #nav-button-aboutcontact {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+    height: 52px;
+  }
+  #nav-button-aboutcontact:hover {
+    cursor: pointer;
+  }
+  #nav-button-hardware {
+    background-color: #0099ff;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+    height: 52px;
+  }
+  #nav-button-hardware:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  #nav-button-help {
+    background-color: #0099ff;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+    height: 52px;
+    width: 110px;
+  }
+  #nav-button-help:hover {
+    background-color: white;
+    color:black;
+    cursor: pointer;
+  }
+  #top-menu-bar {
+    background-color: #0099ff;
+    width: 100%;
+    height: 52px;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 1px;
+    position: fixed;
+    top: 0;
+  }
+  #pmalogo {
+    padding-left: 10px;
+    float: left;
+    
+  }
+  #pmalogopartition {
+    float: left;
+    background-color: white;
+    height: 52px;
+    width: 220px;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-color: black;
+    border-width: 1px;
+  }
+  #pmalogopartition:hover {
+      cursor: pointer;
+  }

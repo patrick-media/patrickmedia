@@ -1,0 +1,123 @@
+/* 
+---------------------------
+Default CSS Button Template
+---------------------------
+
+#cssbutton1 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+*/
+/*
+body {
+  padding-top: 40px;
+}
+#initial {
+  padding-left: 20px;
+}
+#initial-header-1 {
+  border-bottom-style: solid;
+  border-color: lightgray;
+  border-width: 2px;
+}
+#initial-p2 {
+  text-align: center;
+  float: left;
+  padding-left: 10px;
+}
+#initial-p2-div {
+  width: 600px;
+  height: 55px;
+  border-left-style: solid;
+  border-left-width: 8px;
+  border-left-color: #00bfff;
+  background-color: #bdeeff;
+}
+#footer {
+  font-size: 15px;
+  padding-top: 10px;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  background-color: lightgray;
+  position: static;
+  bottom: 1px;
+}
+*/
+center {
+  display: block;
+  text-align: center;
+}
+table {
+  display: table;
+  border-collapse: border-box;
+  white-space: normal;
+  line-height: normal;
+  font-weight: normal;
+  font-size: medium;
+  font-style: normal;
+  color: -internal-quirk-interit;
+  text-align: start;
+  border-color: grey;
+  font-variant: normal;
+}
+table {
+  width: 100%;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+#navleft {
+  width: 49%;
+  vertical-align: top;
+  background-image: url(./cdn/bgelements/nav-bg.JPG);
+}
+#navright {
+  width: 49%;
+  vertical-align: top;
+  background-image: url(./cdn/bgelements/nav-bg.JPG);
+}
+#navleftimg {
+  height: 100px;
+}
+#navrightimg {
+  height: 100px;
+}
+#navmain {
+  width: 2%;
+  vertical-align: top;
+  text-align: -webkit-center;
+}
+img {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}

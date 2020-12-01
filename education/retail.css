@@ -1,0 +1,27 @@
+/* 
+---------------------------
+Default CSS Button Template
+---------------------------
+
+#cssbutton1 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+*/
+body {
+  padding-top: 40px;
+}
+#initial {
+  padding-left: 20px;
+}
+#initial-header-1 {
+  border-bottom-style: solid;
+  border-color: lightgray;
+  border-width: 2px;
+}

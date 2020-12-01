@@ -1,0 +1,27 @@
+#ErrorDocument 403 /forbidden-link.html
+#ErrorDocument 404 /not-found.html
+#ErrorDocument 502 /bad-gateway.html
+#ErrorDocument 504 /gateway-timeout.html
+## Prevent directory file listing
+#IndexIgnore *
+## Make pages render without their extension
+#Options +MultiViews
+
+ErrorDocument 404 /404
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options +MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
